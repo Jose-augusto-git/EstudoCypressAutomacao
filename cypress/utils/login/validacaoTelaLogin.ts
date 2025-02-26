@@ -1,4 +1,4 @@
-export function validacaoTelaLoginLogin(){
+export function validacaoTelaLogin(){
     //Validação da tela de login
     //Logo
     cy.get('[src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbugbank.ede6fc83.png&w=640&q=75"]');
@@ -32,10 +32,5 @@ export function validacaoTelaLoginLogin(){
 
     //validação do texto
     cy.get('.styles__WarnigWrapper-sc-1ota0lw-0').contains('A aplicação não conta com um banco de dados, todas as informações são armazenadas em memória local').should('be.visible');
-
-    //validar campos de registro
-    cy.get('.ihdmxA').click();
-
-    //
 
 }
