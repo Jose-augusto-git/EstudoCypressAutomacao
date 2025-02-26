@@ -7,10 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cypress:default-group": "cypress run --group default-group"
   },
   "devDependencies": {
     "cypress": "^14.1.0",
+    "start-server-and-test": "^2.0.10",
     "typescript": "^5.7.3"
   },
   "dependencies": {
