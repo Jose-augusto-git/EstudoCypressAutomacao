@@ -1,3 +1,5 @@
+import { validacaoTelaRegistro } from "./validacaoTelaRegistro";
+
 export function validacaoTelaLogin(){
     //Validação da tela de login
     //Logo
@@ -32,5 +34,10 @@ export function validacaoTelaLogin(){
 
     //validação do texto
     cy.get('.styles__WarnigWrapper-sc-1ota0lw-0').contains('A aplicação não conta com um banco de dados, todas as informações são armazenadas em memória local').should('be.visible');
+
+
+    //Validação tela de cadastro
+    validacaoTelaRegistro();
+
 
 }

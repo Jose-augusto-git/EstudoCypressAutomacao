@@ -1,5 +1,5 @@
 export function registroLogin(){
-    cy.get('.ihdmxA').click();
+    //cy.get('.ihdmxA').click();
 
     
 
