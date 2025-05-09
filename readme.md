@@ -25,6 +25,6 @@ npx cypress run
 
 Estou utilizando um site espefisico para testes automatizados e manuais o nome do site e  [bugbank ](https://bugbank.netlify.app/#)
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/a3e6af1e-2a3a-44f8-9b1d-25100b734bc6)
 
 ![image](https://github.com/user-attachments/assets/dc487fdd-6a9c-465a-9259-52826d5fc283)
