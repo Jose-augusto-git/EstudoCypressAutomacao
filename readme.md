@@ -1,3 +1,26 @@
+
+# Minha Automação Cypress
+
+Este projeto utiliza o **Cypress** para automatizar os testes de um recurso de login e de atualização de usuário. O **Cypress** é um framework de testes ponta a ponta baseado em **TypeScritp** que permite aos desenvolvedores escrever testes e executá-los em um navegador real.
+
+# Instalação
+
+```base
+npm install
+```
+
+> **NOTA:**
+>
+> é necessário ter o **node** instalado
+
+```base
+# You open the Cypress UI
+npm run cy:open
+
+#Run the automation by command line
+npx cypress run
+```
+
 ## Projeto de estudo de automação com cypress
 
 Estou utilizando um site espefisico para testes automatizados e manuais o nome do site e  [bugbank ](https://bugbank.netlify.app/#)
